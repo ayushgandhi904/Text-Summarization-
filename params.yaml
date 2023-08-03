@@ -1,1 +1,10 @@
-key: value
+TrainingArguments:
+  num_train_epochs: 1
+  warmup_steps: 500
+  per_device_train_batch_size: 4  # Adjusted batch size for faster training
+  weight_decay: 0.0  # Removed weight decay for faster training
+  logging_steps: 10
+  evaluation_strategy: steps
+  eval_steps: 1000  # Reduced evaluation frequency
+  save_steps: 1e6
+  gradient_accumulation_steps: 1 

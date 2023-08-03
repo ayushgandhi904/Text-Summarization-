@@ -21,11 +21,17 @@ python app.py
 
 ## Train the model
 
-Train the model use the FAST API bar icon (Use GPU for fast processing)
+Train the model using the FAST API bar icon (Use GPU for fast processing)
+
+![image](https://github.com/ayushgandhi904/Text-Summarization-/assets/96850890/286edce1-9b15-4550-a909-2a17360a461d)
+
 
 ## To predict the model 
 
-Use predict after training the model.
+You can use prediction after training the model.
+
+![image](https://github.com/ayushgandhi904/Text-Summarization-/assets/96850890/259d87b6-62e8-4f2c-bb94-c2357ef6bd0c)
+
 
 
 
